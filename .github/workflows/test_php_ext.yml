@@ -61,7 +61,7 @@ jobs:
     name: ${{ matrix.continuous-only && inputs.continuous-prefix || '' }} Build ${{ matrix.version }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a
+      - uses: actions/download-artifact@7fba95161a0924506ed1ae69cdbae8371ee00b3f
         if: ${{ !matrix.continuous-only || inputs.continuous-run }}
         with:
           name: protobuf-php-release
