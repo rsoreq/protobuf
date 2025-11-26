@@ -15,7 +15,7 @@
 
   <ItemGroup>
     <PackageReference Include="NUnit" Version="3.6.1" />
-    <PackageReference Include="NUnitLite" Version="3.6.1" />
+    <PackageReference Include="NUnitLite" Version="3.14.0" />
   </ItemGroup>
 
   <!-- Needed for the netfx build to work on Unix. See https://github.com/dotnet/designs/pull/33 -->
