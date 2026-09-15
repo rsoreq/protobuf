@@ -154,9 +154,9 @@ http_archive(
 
 http_archive(
     name = "com_github_google_benchmark",
-    urls = ["https://github.com/google/benchmark/archive/0baacde3618ca617da95375e0af13ce1baadea47.zip"],
-    strip_prefix = "benchmark-0baacde3618ca617da95375e0af13ce1baadea47",
-    sha256 = "62e2f2e6d8a744d67e4bbc212fcfd06647080de4253c97ad5c6749e09faf2cb0",
+    urls = ["https://github.com/google/benchmark/archive/a5305e78fbb9fbf226b6b32857281e4783a68352.zip"],
+    strip_prefix = "benchmark-a5305e78fbb9fbf226b6b32857281e4783a68352",
+    sha256 = "1476c5aadfc9944976f5d5ea64920d813f1db6a45c1436703a14043e3ce9cba8",
 )
 
 http_archive(
