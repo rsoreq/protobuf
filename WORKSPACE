@@ -161,9 +161,9 @@ http_archive(
 
 http_archive(
     name = "com_google_googleapis",
-    urls = ["https://github.com/googleapis/googleapis/archive/d81d0b9e6993d6ab425dff4d7c3d05fb2e59fa57.zip"],
-    strip_prefix = "googleapis-d81d0b9e6993d6ab425dff4d7c3d05fb2e59fa57",
-    sha256 = "d986023c3d8d2e1b161e9361366669cac9fb97c2a07e656c2548aca389248bb4",
+    urls = ["https://github.com/googleapis/googleapis/archive/6a1db32dc52fd9421c1743dc8f5faa7a15e518d1.zip"],
+    strip_prefix = "googleapis-6a1db32dc52fd9421c1743dc8f5faa7a15e518d1",
+    sha256 = "c2860671d090f5709f4077862306c74bbcf6b438efee6f1691dad5140dfc5c85",
     build_file = "//benchmarks:BUILD.googleapis",
     patch_cmds = ["find google -type f -name BUILD.bazel -delete"],
 )
